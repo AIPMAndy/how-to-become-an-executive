@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="361" viewBox="0 0 950 361" role="img" aria-label="全球经理人敬业度变化">
+<rect width="100%" height="100%" fill="#101b2d"/>
+<text x="45" y="58" fill="#f5f8ff" font-size="28" font-family="Noto Sans CJK SC, sans-serif" font-weight="700">全球经理人敬业度变化</text>
+<text x="45" y="89" fill="#b9c8e6" font-size="16" font-family="Noto Sans CJK SC, sans-serif">Gallup 2026全球职场报告，所述年份为调查年份</text>
+<text x="45" y="145" fill="#d8e4f9" font-size="18" font-family="Noto Sans CJK SC, sans-serif">2024</text>
+<rect x="310" y="125" width="430.3" height="30" rx="5" fill="#6eacff"/>
+<text x="754.3" y="148" fill="#fff" font-size="18" font-family="Noto Sans CJK SC, sans-serif" font-weight="700">27% </text>
+<text x="45" y="218" fill="#d8e4f9" font-size="18" font-family="Noto Sans CJK SC, sans-serif">2025</text>
+<rect x="310" y="198" width="350.6" height="30" rx="5" fill="#6eacff"/>
+<text x="674.6" y="221" fill="#fff" font-size="18" font-family="Noto Sans CJK SC, sans-serif" font-weight="700">22% </text>
+<text x="45" y="303" fill="#9eb4d9" font-size="13" font-family="Noto Sans CJK SC, sans-serif">样本为全球受访者；不可将变化理解为晋升因果结果</text>
+<a href="https://www.gallup.com/workplace/349484/leadership.aspx" target="_blank"><text x="45" y="328" fill="#91bfff" font-size="13" font-family="Noto Sans CJK SC, sans-serif">数据原文：https://www.gallup.com/workplace/349484/leadership.aspx</text></a>
+</svg>
