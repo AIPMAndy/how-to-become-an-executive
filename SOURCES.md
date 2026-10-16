@@ -14,6 +14,10 @@
 - [CCL：管理者入门能力](https://www.ccl.org/leadership-programs/new-manager-courses/)，核心强调自我觉察、学习敏捷、沟通与影响。
 - [Harvard Business Review：Why You Didn’t Get That Promotion](https://hbr.org/2009/06/why-you-didnt-get-that-promotion)，2009。属于专业观点而非普适定量因果结论，适合提醒晋升还受组织评审与岗位窗口约束。
 
+## 自姊妹仓库并入的参考文献
+
+[REFERENCES.md](REFERENCES.md) 收录《公司法》法定高管定义，以及 CCL、CIPD、Google re:Work、McKinsey CEO 职责等条目和不能外推的边界。这些链接补充本页，不替换上面已经核验的统计、劳动法和招聘来源。七阶段路线里的「不能直接照搬的地方」用的就是这批边界。
+
 ## 如何更新一条事实
 
 提交PR时附URL、标题、发布及生效日期、核心原文位置、适用地区、适用人群、样本局限、复核日期。新增经验建议应标注“作者经验/操作建议”，不伪装为法定规则；定量判断不能省略统计分母。禁止未经授权转载完整报告、付费文章或个人信息。

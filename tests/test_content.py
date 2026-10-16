@@ -42,6 +42,38 @@ class ContentTest(unittest.TestCase):
                 if target.startswith(('http://','https://','#')): continue
                 self.assertTrue((ROOT/target).exists(),f'{doc.name}: {target}')
 
+    def test_seven_stage_roadmap_and_tracks(self):
+        docs=[
+            ROOT/'guides'/'10-roadmap.md',
+            ROOT/'tracks'/'ai-product.md',
+            ROOT/'tracks'/'product-operations.md',
+            ROOT/'tracks'/'finance-hr-technology.md',
+            ROOT/'REFERENCES.md',
+            ROOT/'CONTENT_LICENSE.md',
+        ]
+        for doc in docs:
+            self.assertGreater(doc.stat().st_size,500,doc.name)
+            body=doc.read_text(encoding='utf-8')
+            for target in re.findall(r'\]\(([^)]+)\)',body):
+                if target.startswith(('http://','https://','mailto:','#')):
+                    continue
+                path=target.split('#',1)[0]
+                self.assertTrue((doc.parent/path).resolve().exists(),f'{doc.name}: {target}')
+        roadmap=(ROOT/'guides'/'10-roadmap.md').read_text(encoding='utf-8')
+        for phrase in ('别急着学管理，先弄清楚你想负责什么','七阶段','不能直接照搬的地方','三条细分路线'):
+            self.assertIn(phrase,roadmap)
+        self.assertEqual(len(list((ROOT/'tracks').glob('*.md'))),3)
+        self.assertIn('CC BY 4.0',(ROOT/'CONTENT_LICENSE.md').read_text(encoding='utf-8'))
+        self.assertIn('70-20-10',(ROOT/'REFERENCES.md').read_text(encoding='utf-8'))
+        home=(ROOT/'index.html').read_text(encoding='utf-8')
+        read=(ROOT/'read.html').read_text(encoding='utf-8')
+        for needle in ('guides/10-roadmap.html','tracks/ai-product.html','tracks/product-operations.html','tracks/finance-hr-technology.html','别急着学管理'):
+            self.assertIn(needle,home,needle)
+            self.assertIn(needle,read,needle)
+        self.assertIn('href="10-roadmap.html"',(ROOT/'guides'/'00-start.html').read_text(encoding='utf-8'))
+        self.assertIn('REFERENCES.html',read)
+        self.assertIn('CONTENT_LICENSE.html',read)
+
     def test_links_and_html(self):
         self.assertTrue((ROOT/'index.html').exists())
         home=(ROOT/'index.html').read_text(encoding='utf-8')
