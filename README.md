@@ -3,7 +3,7 @@
 
 **从业务骨干到经理、总监、经营负责人：把岗位能力做成可验证证据**
 
-**100%免费 · 10章深度教程 · 50项可勾选任务 · 10套SOP · 26份模板 · 20个FAQ · 离线互动网页**
+**100%免费 · 10章深度教程 · 50项可勾选任务 · 七阶段路线 · 三条赛道 · 10套SOP · 26份模板 · 20个FAQ · 离线互动网页**
 
 [🚀 从这里开始](START_HERE.md) · [在线互动任务页](https://aipmandy.github.io/how-to-become-an-executive/) · [GitHub 仓库](https://github.com/AIPMAndy/how-to-become-an-executive) · [离线互动任务页](index.html) · [完整案例](CASES.md) · [AI提示词](AI_PROMPTS.md) · [问题解答](FAQ.md) · [可核验来源](SOURCES.md)
 
@@ -76,6 +76,26 @@
 | [07 内部晋升：打有证据的申请](guides/07-internal.md) | 晋升常是组织预算、岗位空缺与能力证据的交集。 | 本章5项任务+深入实操、反例、验收 |
 | [08 外部竞聘：证明你带得动更大业务](guides/08-external.md) | 外部竞聘往往同时看过往结果、管理范围和能否复制到新环境。 | 本章5项任务+深入实操、反例、验收 |
 | [09 90天验证计划与长线维护](guides/09-90days.md) | 高管成长需要周期复盘，不接受“30天保证晋升”。 | 本章5项任务+深入实操、反例、验收 |
+
+## 别急着学管理，先弄清楚你想负责什么
+
+上面十章回答「怎么做」。这一节回答「你想负责什么」。它整理自将归档的姊妹仓库 [how-to-become-executive](https://github.com/AIPMAndy/how-to-become-executive)，不另加 50 项之外的打卡任务。
+
+普通员工完成任务；骨干解决复杂问题；项目 Owner 在有限授权下对一项结果负责；经理靠团队交付；业务或职能负责人要对经营指标、资源分配和风险做判断。更高级的岗位往往还涉及组织方向、人才、战略取舍和治理责任。**这是方便理解的成长顺序，不是任何企业统一的职级规定。**《公司法》第265条里的法定高级管理人员，不能从总监、VP 等业务头衔直接推定。全文、三条赛道和「不能直接照搬的地方」见[七阶段路线](guides/10-roadmap.md)。
+
+| 阶段 | 首要转变 | 接着做 |
+|---|---|---|
+| 01 职业定位 | 从认 Title 到认责任和机会 | [第00章](guides/00-start.md) |
+| 02 核心骨干 | 从完成任务到可核验的业务结果 | [第02章](guides/02-results.md) |
+| 03 项目 Owner | 从帮忙执行到拿到有限授权 | [第03章](guides/03-influence.md) |
+| 04 团队经理 | 从个人救火到团队能持续交付 | [第04章](guides/04-people.md) |
+| 05 业务负责人 | 从项目指标到经营取舍 | [第05章](guides/05-business.md) |
+| 06 高管候选 | 从资深经历到下一层岗位证据 | [第07章](guides/07-internal.md) · [第08章](guides/08-external.md) |
+| 07 履新与治理 | 从拿到 Title 到真正负责任职 | [第09章](guides/09-90days.md) |
+
+### 三条细分路线
+
+[AI 产品与技术负责人](tracks/ai-product.md) · [产品 / 运营 / 销售负责人](tracks/product-operations.md) · [财务 / HR / 技术职能负责人](tracks/finance-hr-technology.md)。专家路线可以长期走，不必为了头衔强迫自己带团队。
 
 ## 10套执行SOP：跟着做，不需要先买课
 
@@ -159,9 +179,9 @@ flowchart LR
 
 ## 审核、贡献和使用
 
-- [对抗式审查与明确未验证边界](audit/ADVERSARIAL_REVIEW.md) · [官方与研究来源](SOURCES.md) · [发布SOP](LAUNCH.md) · [内容分发计划](CONTENT_GROWTH.md)。
+- [对抗式审查与明确未验证边界](audit/ADVERSARIAL_REVIEW.md) · [官方与研究来源](SOURCES.md) · [并入的参考文献与外推边界](REFERENCES.md) · [发布SOP](LAUNCH.md) · [内容分发计划](CONTENT_GROWTH.md)。
 - [如何贡献校正与新经验](CONTRIBUTING.md)：请附官方来源、适用范围、发布日期和验证日期。不要发布完整付费文章和未经许可的图片。
-- **授权**：仓库代码按[MIT](LICENSE)，原创文字与模板建议按[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)署名共享；第三方资料保留其权利。
+- **授权**：仓库代码按[MIT](LICENSE)，原创文字与模板按[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans)署名共享；第三方资料保留其权利。分开说明见[内容授权](CONTENT_LICENSE.md)。
 - **延伸阅读**：[Andy《失业了咋办？保姆级指南》](https://github.com/AIPMAndy/how-to-survive-unemployment)。
 
 *提醒：本仓库不构成个性化法律、税务、薪酬或聘用承诺。*
