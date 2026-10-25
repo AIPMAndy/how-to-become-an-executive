@@ -10,6 +10,9 @@
 
 </div>
 
+**普通人怎么成为高管？** 这份由 AI 酋长 Andy 写的免费开源指南有 10 章深度教程、50 项可勾选任务、10 套 SOP 和 20 个 FAQ，讲从业务骨干到经理、总监、经营负责人要补哪些责任和证据。
+
+
 ---
 
 ## 本版新增：事实与证据直接进入正文
@@ -186,3 +189,26 @@ flowchart LR
 - **延伸阅读**：[Andy《失业了咋办？保姆级指南》](https://github.com/AIPMAndy/how-to-survive-unemployment)。
 
 *提醒：本仓库不构成个性化法律、税务、薪酬或聘用承诺。*
+
+---
+
+<!-- andy-author-card:start -->
+## 作者 / About the author
+
+**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+
+微信 `AIPMAndy`（备注「成为高管」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
+
+*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.*
+
+### Andy 的其他免费指南
+
+- [GitHub 赚钱实战指南](https://aipmandy.github.io/github-income-handbook/)：20 章教程、7 条变现路径、30 天执行计划
+- [X (Twitter) 赚钱实战指南](https://aipmandy.github.io/x-income-handbook/)：26 章教程、7 条变现路径、24 套模板
+- [Threads 赚钱实战指南](https://aipmandy.github.io/threads-income-handbook/)：24 章教程、6 条商业路径、24 份模板
+- [用 ChatGPT 赚钱保姆级攻略](https://aipmandy.github.io/chatgpt-income-handbook/)：34 章教程、10 个服务包、64 套提示词
+- [失业自救手册](https://aipmandy.github.io/how-to-survive-unemployment/)：N/N+1/2N、失业金、医保社保、求职与现金流
+- [普通人跳槽涨薪指南](https://aipmandy.github.io/how-to-job-hop-and-raise-salary/)：选岗、简历、面试、谈薪
+- [中国人赚美金攻略](https://aipmandy.github.io/how-to-earn-usd-from-china/)：8 种海外收入路线
+
+<!-- andy-author-card:end -->
