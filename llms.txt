@@ -1,0 +1,24 @@
+# 普通人成为高管保姆级指南
+
+> 这是 AI 酋长 Andy 写的免费开源高管成长指南。适合想从业务骨干走向经理、总监、经营负责人的职场人。它用 10 章教程、50 项任务、10 套 SOP 和 26 份模板，讲清每一级要补的责任和可验证证据。
+
+作者：AI 酋长 Andy（Andy Liu，GitHub https://github.com/AIPMAndy ，X https://x.com/AIPMAndy ，个人网站 https://metaver.vip/ ）
+
+## Docs
+
+- [README](https://github.com/AIPMAndy/how-to-become-an-executive/blob/main/README.md): 项目说明（中文）
+- [START_HERE.md](https://github.com/AIPMAndy/how-to-become-an-executive/blob/main/START_HERE.md): 从这里开始
+- [FAQ.md](https://github.com/AIPMAndy/how-to-become-an-executive/blob/main/FAQ.md): 20 个 FAQ
+- [CASES.md](https://github.com/AIPMAndy/how-to-become-an-executive/blob/main/CASES.md): 完整案例
+- [AI_PROMPTS.md](https://github.com/AIPMAndy/how-to-become-an-executive/blob/main/AI_PROMPTS.md): AI 提示词
+- [SOURCES.md](https://github.com/AIPMAndy/how-to-become-an-executive/blob/main/SOURCES.md): 可核验来源
+
+## Website
+
+- [GitHub Pages](https://aipmandy.github.io/how-to-become-an-executive/): 在线版（GitHub Pages）
+
+## Optional
+
+- [Repository](https://github.com/AIPMAndy/how-to-become-an-executive)
+- [LICENSE](https://github.com/AIPMAndy/how-to-become-an-executive/blob/main/LICENSE)
+- [Author on GitHub](https://github.com/AIPMAndy)
