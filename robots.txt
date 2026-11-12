@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aipmandy.github.io/how-to-become-an-executive/sitemap.xml

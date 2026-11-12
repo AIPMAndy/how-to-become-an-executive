@@ -117,6 +117,9 @@ def main():
         evcss="body{margin:0;background:#f6f7fb;color:#182338;font:15px/1.75 -apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}main{max-width:1050px;margin:auto;padding:24px 18px 80px}.hero{border-radius:23px;background:#101b2d;color:#f6faff;padding:36px 40px}.hero h1{font-size:33px;margin:0 0 10px}.hero p{max-width:760px;color:#ccd8e9}a{color:#2963d4}.hero a{color:#fff}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}.card{background:white;border-radius:17px;padding:24px;border:1px solid #e2e7f0}.card h2{font-size:19px;margin:7px 0 15px}.kind{font-size:12px;color:#3165ae;font-weight:700}dt{font-weight:700;color:#354966;margin-top:11px;font-size:13px}dd{margin:3px 0 9px;font-size:14px}.warn{color:#9b513e}.link{display:inline-block;padding-top:9px;font-weight:700}footer{color:#6a788b;font-size:12px;margin-top:24px}@media(max-width:670px){.grid{grid-template-columns:1fr}.hero{padding:25px 22px}.hero h1{font-size:26px}.card{padding:19px}}"
         evpage='<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>真实研究证据库 · '+html.escape(title)+'</title><style>'+evcss+'</style></head><body><main><header class="hero"><nav aria-label="主要导航"><a href="../index.html">← 返回互动首页</a> · <a href="../read.html">阅读完整章节</a> · '+AUTHOR_NAV+'</nav><h1>真实研究与原始证据库</h1><p>'+str(len(records))+'条资料，逐条注明原始样本、实际结论、适用边界和可执行行动。原始来源由出版机构提供；不保证求职与晋升结果。更新日期：2026-10-12。</p></header><div class="grid">'+''.join(ecards)+'</div><footer>本站仅对外链接官方/原始出处；数据与职位可能更新，不采集用户输入。<p>'+AUTHOR_CONTACT+'</p></footer></main></body></html>'
         (here/'evidence/index.html').write_text(evpage,encoding='utf-8')
+
+    import seo_meta
+    seo_meta.apply(here)
     print('generated index.html with',len(data['tasks']),'tasks')
 
 if __name__=='__main__':main()
