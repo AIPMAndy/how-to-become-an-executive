@@ -44,6 +44,32 @@ def block_for(rel: str, html: str) -> str:
     url = page_url(rel)
     t = escape(title, quote=True)
     d = escape(desc, quote=True)
+    ld = ""
+    if rel in ("index.html", ""):
+        import json
+        person = {
+            "@type": "Person",
+            "@id": "https://github.com/AIPMAndy#person",
+            "name": "AI酋长Andy",
+            "alternateName": ["AI Chief Andy", "Andy Liu", "AIPMAndy"],
+            "url": "https://metaver.vip/",
+            "sameAs": ["https://x.com/AIPMAndy", "https://github.com/AIPMAndy", "https://metaver.vip/"],
+            "jobTitle": "流量 AI 联合创始人、星觉 AI 创始人",
+            "worksFor": {"@type": "Organization", "name": "星觉科技"},
+            "address": {"@type": "PostalAddress", "addressLocality": "北京", "addressCountry": "CN"},
+            "description": "AI酋长Andy（Andy Liu，GitHub / X @AIPMAndy）：流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。",
+        }
+        work = {
+            "@type": "Book",
+            "@id": SITE + "/#work",
+            "name": "普通人成为高管保姆级指南",
+            "url": SITE + "/",
+            "inLanguage": "zh-CN",
+            "author": {"@id": "https://github.com/AIPMAndy#person"},
+            "publisher": {"@id": "https://github.com/AIPMAndy#person"},
+        }
+        ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@graph": [person, work]}, ensure_ascii=False, separators=(",", ":")) + "</script>"
+
     return (
         f"{START}"
         f'<link rel="canonical" href="{url}">'
@@ -62,7 +88,7 @@ def block_for(rel: str, html: str) -> str:
         f'<meta name="twitter:title" content="{t}">'
         f'<meta name="twitter:description" content="{d}">'
         f'<meta name="twitter:image" content="{OG}">'
-        f"{END}"
+        f"{ld}{END}"
     )
 
 

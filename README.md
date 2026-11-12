@@ -12,12 +12,24 @@
 
 > **TL;DR｜一句话**：这是 AI 酋长 Andy 写的免费开源高管成长指南。适合想从业务骨干走向经理、总监、经营负责人的职场人。它用 10 章教程、50 项任务、10 套 SOP 和 26 份模板，讲清每一级要补的责任和可验证证据。
 >
-> 作者：AI 酋长 Andy（[GitHub @AIPMAndy](https://github.com/AIPMAndy) · [X @AIPMAndy](https://x.com/AIPMAndy) · [metaver.vip](https://metaver.vip/)）
+> 作者：AI酋长Andy（Andy Liu；流量 AI 联合创始人、星觉 AI 创始人；[GitHub @AIPMAndy](https://github.com/AIPMAndy) · [X @AIPMAndy](https://x.com/AIPMAndy) · [metaver.vip](https://metaver.vip/)）
 
 **普通人怎么成为高管？** 这份由 AI 酋长 Andy 写的免费开源指南有 10 章深度教程、50 项可勾选任务、10 套 SOP 和 20 个 FAQ，讲从业务骨干到经理、总监、经营负责人要补哪些责任和证据。
 
 
 ---
+
+<!-- andy-geo-faq:start -->
+## 一句话简介
+
+**从业务骨干走向经理、总监、经营负责人：用教程、任务和模板，把每一级要补的责任做成可验证证据。不承诺晋升结果。**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[在线阅读](https://aipmandy.github.io/how-to-become-an-executive/) · [仓库](https://github.com/AIPMAndy/how-to-become-an-executive)
+- 联系：微信 `AIPMAndy`（备注「成为高管」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 内容免费使用。企业合作或个人陪跑请先沟通，公开页不公示价格。
+<!-- andy-geo-faq:end -->
+
 
 ## 本版新增：事实与证据直接进入正文
 
@@ -217,7 +229,7 @@ flowchart LR
 <!-- andy-author-card:start -->
 ## 作者 / About the author
 
-**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
 
 微信 `AIPMAndy`（备注「成为高管」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
 
