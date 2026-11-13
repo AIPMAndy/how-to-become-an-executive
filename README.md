@@ -10,6 +10,17 @@
 
 </div>
 
+<!-- andy-pdf-edition:start -->
+## 精美 PDF 电子书
+
+[**免费下载《普通人成为高管实战指南》**](pdf/how-to-become-an-executive-guide.pdf) · [直接下载 PDF](https://github.com/AIPMAndy/how-to-become-an-executive/raw/refs/heads/main/pdf/how-to-become-an-executive-guide.pdf)
+
+**147 页 · A5 手机阅读版 · 可点击目录 · 1.03 MB**  
+整理日期：2026-11-13。包含完整实操正文、案例、模板与原始来源；平台规则与价格沿用原资料的核查日期。
+
+**作者与服务（广告）**：AI 酋长 Andy · 个人微信 **AIPMAndy** · [个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/)。免费教程可直接使用，咨询与合作自愿选择。
+<!-- andy-pdf-edition:end -->
+
 > **TL;DR｜一句话**：这是 AI 酋长 Andy 写的免费开源高管成长指南。适合想从业务骨干走向经理、总监、经营负责人的职场人。它用 10 章教程、50 项任务、10 套 SOP 和 26 份模板，讲清每一级要补的责任和可验证证据。
 >
 > 作者：AI酋长Andy（Andy Liu；流量 AI 联合创始人、星觉 AI 创始人；[GitHub @AIPMAndy](https://github.com/AIPMAndy) · [X @AIPMAndy](https://x.com/AIPMAndy) · [metaver.vip](https://metaver.vip/)）
